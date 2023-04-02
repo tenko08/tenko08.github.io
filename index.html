@@ -3,5 +3,20 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<p>Welcome</p>
+<button type="button"
+        onclick="myFunction()">
+    Click Me!
+</button>
+<p id="geek1"></p>
+<p id="geek2"></p>
+<script>
+    function myFunction() {
+        document.getElementById("geek1")
+                  .innerHTML = "Hello";
+        document.getElementById("geek2")
+                  .innerHTML ="How are you?";
+    }
+</script>
 </body>
 </html>
