@@ -1,9 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 body{
     background-color: #ffe3cf;
 }
 h1{
     font-family: 'Carter One', cursive;
-    font-size: 200px;
+    font-size: 30.0vh;
     color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0c8ad;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+  border-right: 3px solid #ffe3cf;
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2vh;
+  text-decoration: none;
+}
+li:hover {
+  background-color: #ffe3cf;
+}
+li:last-child {
+  border-right: none;
+}
+li:first-child {
+  color: white;
+  font-family: 'Carter One', cursive;
+  font-size: 1.8vh;
+  background-color: #ffe3cf;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: inherit;
 }
