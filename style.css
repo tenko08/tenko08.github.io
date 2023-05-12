@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 body{
-    background-color: #ffe3cf;
+    background-color: #f0c8ad;
 }
 h1{
     font-family: 'Carter One', cursive;
     font-size: 30.0vh;
     color: white;
+    position:absolute;
+    top: 5vh;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #f0c8ad;
+  background-color: #ffe3cf;
   position: fixed;
   top: 0;
   width: 100%;
 }
 li {
   float: left;
-  border-right: 3px solid #ffe3cf;
+  border-right: 3px solid #f0c8ad;
 
   display: block;
   color: white;
@@ -31,7 +33,7 @@ li {
   text-decoration: none;
 }
 li:hover {
-  background-color: #ffe3cf;
+  background-color: #f0c8ad;
 }
 li:last-child {
   border-right: none;
@@ -40,9 +42,25 @@ li:first-child {
   color: white;
   font-family: 'Carter One', cursive;
   font-size: 1.8vh;
-  background-color: #ffe3cf;
+  background-color: #f0c8ad;
 }
 a, a:visited, a:hover, a:active {
   color: inherit;
   text-decoration: inherit;
+}
+.profile {
+    height: 40vh;
+    width: 40vh;
+    position:absolute;
+    left:65vw;
+    bottom:30vh;
+}
+.nameBackground {
+    height:50vh;
+    width:52.5vw;
+    position:absolute;
+    left:5vw;
+    bottom:25vh;
+    background-color:#db9e74;
+    border-radius: 100px;
 }
