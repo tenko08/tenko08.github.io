@@ -3,9 +3,9 @@
 body{
     background-color: #f0c8ad;
 }
-h1{
+h1{ /* big header */
     font-family: 'Carter One', cursive;
-    font-size: 30.0vh;
+    font-size: 15.5vw;
     color: white;
     position:absolute;
     top: 5vh;
